@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syahmin's Portfolio</title> 
+    <link rel = "icon" href = 
+    "Images/LogoIcon.png" 
+            type = "image/x-icon">
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/c3773be704.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+<!--HEADER-->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/Logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Welcome</p>
+            <h1>Hi, I am <span>Syahmin</span><br>Semsubhari</br></h1>
+        </div>
+    </div>
+</div>
+
+<!--ABOUT ME-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/Artboard 1.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> Hello there! My name is Syahmin Binti Semsubhari and I live in Seri Kembangan Selangor. Visual communication is an impactful element to capture audiences hearts, evoke emotions and tells compelling stories. With technical skills and a creative mindset, I strive to deliver high-quality work. To learn and grow, I stay up-to-date with the latest design trends, techniques, and software. This allows me to bring fresh perspectives and innovative ideas to every project I undertake.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Creative-Fields')">Creative Fields</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experiences</p>
+                        <p class="tab-links" onclick="opentab('Extra-Curricular')">Extra Curricular</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Adobe</span><br>Illustrator</br></li>
+                            <li><span>Adobe</span><br>Photoshop</br></li>
+                            <li><span>Adobe</span><br>Lightroom</br></li>
+                          <li><span>VS</span><br>Code</br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Creative-Fields">
+                        <ul>
+                            <li><span>Graphic Design</span><br>Create Visual Content</br></li>
+                            <li><span>Photo Editing</span><br>Basic skill in Image Editing</br></li>
+                            <li><span>Web Development</span><br>Basic Website Development</br></li>
+                            <li><span>Editorial Design</span><br>Graphic Design in Publications</br></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2022</span><br>Layout Design Consultant (Poster & Bunting) Project for
+                                <br>Alor Gajah District and Land Office, Melaka</br></li>
+                            <li><span>2022</span><br>Content Creator for Banker's Cafe'</br></li>
+                            <li><span>2021</span><br>Staff at Texas Chicken</br></li>
+                            <li><span>2019 - 2021</span><br>Freelance Designer</br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Extra-Curricular">
+                        <ul>
+                            <li><span>GameInc23</span><br>Head of Design Bureau</br></li>
+                            <li><span>ACP Championship</span><br>TOP 30 Finalists</br></li>
+                            <li><span>Meskom</span><br>Team Webmaster</br></li>
+                            <li><span>Chess</span><br>Participants of Chess Tournament in Jasin</br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul> 
+                           <li><span>2021 - Current</span><br>Diploma In New Media Communication & Contentpreneurship - <br>UiTM, Cawangan
+                            Melaka, Kampus Alor Gajah</br></li> 
+                            <li><span>2018 - 2021</span><br>SPM - SMK Seri Serdang</br></li>                            
+                            <li><span>2016 - 2018</span><br>PT3 - SMK Seri Serdang</br></li>
+
+                        </ul>
+                    </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+<!---------------SERVICES--------------->
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                <h2>Editorial Design</h2>
+                <p>With a keen eye for aesthetics and a passion for storytelling, I specialize in creating visually 
+                    compelling designs that elevate your content. Whether it's a magazine, brochure, book, or any other 
+                    publication, I ensure that your message resonates with your audience. </p>
+                    <a href="#portfolio">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Graphic Design</h2>
+                <p>Through captivating designs, I bring your brand to life with creativity and aesthetics. Whether you 
+                    need attention-grabbing posters, eye-catching banners, or impressive packaging that stands out on the shelves, 
+                    I've got you covered.</p>    
+                    <a href="#portfolio">Learn More</a>        
+            </div>
+            <div>
+                <i class="fa-solid fa-camera"></i>
+                <h2>Creative Director & Photographer</h2>
+                <p>My role as a Creative Director and Photographer is to conceptualize, shape, and bring to life the creative vision for your 
+                    projects. Brainstorming ideas and creating mood boards, I ensure that every aspect of the creative process reflects your 
+                    unique style. In my work, I strive to create images that evoke emotions and leave a lasting impression.</p>
+                    <a href="#portfolio">Learn More</a> 
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------PORTFOILIO/MY WORK--------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="My Work/1x/Artboard 2.png">
+                <div class="layer">
+                    <h3>My Projects</h3>
+                    <p> In here are all my of projects that was done along the time I am in my diploma. I was required to design multiple online books with beautiful layouts to elevate contents so that we will be able to
+                        resonate with the audience. I have also created some logo designs and various moodboard for branding. Check out my work!</p>
+                        <a href="Projects.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="My Work/1x/Artboard 4.png">
+                <div class="layer">
+                    <h3>Graphic Design</h3>
+                    <p> Along the course for my Diploma I have created multiple posters and banners to hone my designing skills and understanding in layout design.
+                        I havea also been responsible to decide the course's GameInc23 event theme and has designed multiple banners, posters and social media template.</p>
+                        <a href="Graphic Design.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="My Work/1x/Artboard 1.png">
+                <div class="layer">
+                    <h3>Creative Director & Photographer</h3>
+                    <p> Assigned and responsible to direct a photoshoot for the masscomm website images by overseeing the creative vision, concept, and overal artistic direction 
+                        as I work closely with the Photographer to ensure that the visual concept and messaging align with the desired outcome after creating brainstorming ideas, 
+                        creating moodboards and has been provided guidance throughout the entire creative process by the lecturers involved.</p>
+                        <a href="Creative Director & Photographer.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------SERVICES--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>syahminsemsubhari0@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>017-812 7889</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/SyahSem09/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/syhmn_09/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/syahmin-semsubhari-6584051bb/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.behance.net/syahminsemsubh"><i class="fa-brands fa-behance"></i></i></a>
+                </div>
+                <a href="Syahmin Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Syahmin's Website. All Rights Reserved</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-300px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxApjUi0rHauLK8q2qacRmptM11egfBaLAHxKU156MeWY-XWDkbSvqSEPYd6HKHUWgNrA/exec'
+    const form = document.forms ['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.eror('Error!', error.message))
+    })
+  </script>
+ 
+</body>
+</html>
