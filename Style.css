@@ -307,6 +307,9 @@ nav ul li a:hover::after {
 }
 
 /*CONTACT*/
+#contact{
+    margin-top: 100px;
+}
 .contact-left {
     flex-basis: 35%;
 }
