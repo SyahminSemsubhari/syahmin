@@ -408,53 +408,50 @@ nav ul li a:hover::after {
   }
 
   /*VIDEOS*/
-#wrapper { 
-    width: 1095px; 
-    height: auto; 
-    margin: 0 auto;
-    position: center;
-    margin-top: 50px;
-} 
-
-#wrapper h1{
-    margin-bottom: 30px;
+ .video-container{
+    width: 1100px;
+    height: 600px;
+    display: flex;   
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    margin: 10px 210px;
 }
 
-#wrapper p{
-    margin-top: 10px;
-    margin-bottom: 30px;
+.video-container .videos{
+    width: 20%;
+    padding: 10px 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-#home1 { 
-    width: 47.5%; 
-    height: 300px; 
-    float: left; 
-    margin-right: 5%;
-} 
-
-#home2 { 
-    width: 47.5%; 
-    height: 300px; 
-    float: left; 
+.video-container .videos video{
+    width: 95%;
+    height: 100px;
+    margin: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
-.clear{
-    clear: both;
+.video-container .videos video:nth-child(1){
+    margin-top: 0;
 }
 
-@media (max-width:767px) {
-    #wrapper{
-        width: 100%;
-        height: auto;
-    }
-    #home1 {
-        width: 100%;
-        height: auto;
-        float: none;
-    }
-    #home2 {
-        width: 100%;
-        height: auto;
-        float: none;
-    }
+.video-container .videos video:hover,
+.video-container .videos .active{
+    transform: scale(1.06);
+    border: 3px solid #ff004f;
+}
+
+.video-container .main-video{
+    width: 80%;
+    padding: 10px;
+}
+
+.video-container .main-video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid #ff004f;
 }
